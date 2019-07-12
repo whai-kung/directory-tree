@@ -1,0 +1,34 @@
+{
+  "name": "directory-tree",
+  "version": "1.0.0",
+  "description": "to create a directory tree ui",
+  "main": "index.js",
+  "repository": "git@github.com:whai-kung/directory-tree.git",
+  "author": "whai kung <n.ratanasuwan@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^3.0.1",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^1.10.3",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "path": "^0.12.7",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
